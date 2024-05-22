@@ -1,4 +1,5 @@
 import {IoMdTrash} from 'react-icons/io'
+import {Link} from 'react-router-dom'
 import Header from '../Header'
 import CartContext from '../../CartContext'
 import './index.css'
@@ -68,6 +69,11 @@ const CartRoute = () => (
                 alt="Empty Cart"
               />
               <p>Your cart is empty</p>
+              <Link to="/">
+                <button type="button" className="button">
+                  ADD DISHES
+                </button>
+              </Link>
             </div>
           ) : (
             <div className="cart-route">
