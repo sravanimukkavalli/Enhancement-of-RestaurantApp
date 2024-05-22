@@ -69,7 +69,7 @@
   align-items: center;
 }
 
-.cart-item-quantity button {
+.button {
   border: none;
   background-color: #ff6347;
   color: white;
